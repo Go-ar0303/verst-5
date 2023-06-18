@@ -1,0 +1,32 @@
+header {
+    height: 768px;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    background-image: url(Background.png);
+}
+
+.header-nav {
+    display: flex;
+    color: aliceblue;
+}
+
+.text {
+    margin-top: 160px;
+    text-align: left;
+
+}
+
+.menu_mob {
+    display: none;
+}
+
+@media(max-width: 930px) {
+    .menu {
+        display: none;
+    }
+
+    .menu_mob {
+        display: block;
+    }
+}
